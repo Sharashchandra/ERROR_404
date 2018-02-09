@@ -1,8 +1,8 @@
 <?php
 session_start();
-session_unset();
-   if(session_destroy()) {
-      header("Location: index.php");
-   }
+if (!isset($_SESSION['email'])) {
+    header('location: login.php');
+}
+session_destroy();
+header('location: index.php');
 ?>
-

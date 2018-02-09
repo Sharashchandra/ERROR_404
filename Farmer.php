@@ -1,28 +1,23 @@
-<?php
-$con = mysqli_connect("localhost", "root", "", "store")or die($mysqli_error($con));
-session_start();
-if (isset($_SESSION['email'])) {
-  header('location: products.php');
-}
-
-?>
 <!DOCTYPE html>
 <html>
-    <head> <!---- The page has a title Lifestyle Store--> 
+<head> <!---- The page has a title Lifestyle Store--> 
         <title>Farmer Store</title> 
         <!---- External css file index.css placed in the folder css is linked--> 
         <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css" type="text/css">
         <script type="text/javascript" src="bootstrap/js/jquery-3.2.1.min.js"></script>
         <script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
         <link rel="stylesheet" href="style1.css" type="text/css">
+
     </head>
     <body>
-        <div class="navbar navbar-inverse navbar-fixed-top">
-            <div class="logo"><a href="Index.php">Farmer Store</a></div>
-            <div class="header-link"><a href="contact.php"><span class="glyphicon glyphicon-phone"></span> Contact Us</a></div>
-            <div class="header-link"><a href="about.php"><span class="glyphicon glyphicon-tasks"></span> About Us</a></div>
-        </div>   
-        <div class="content1 col-xs-5" >
+	<div class="navbar navbar-inverse navbar-fixed-top">
+            <div class="logo"><a href="Index.php" class="al">Farmer Store</a></div>
+            <div class="header-link"><a href="Contact.php"><span class="glyphicon glyphicon-phone"></span> Contact Us</a></div>
+            <div class="header-link"><a href="About.php"><span class="glyphicon glyphicon-tasks"></span> About Us</a></div>
+            <div class="header-link"><a href="Logout.php"><span class="glyphicon glyphicon-log-in"></span>Log Out</a></div>
+        </div>
+        <div class="row">
+        <div class="content3 col-xs-3" >
         <div class="banner">
             <div class="inner-banner-image">
                 <div class="banner_content">
@@ -33,7 +28,7 @@ if (isset($_SESSION['email'])) {
             </div>
         </div>
         </div>
-        <div class="content2 col-xs-5">
+        <div class="content4 col-xs-3">
         <div class="banner">
             <div class="inner-banner-image">
                 <div class="banner_content">
@@ -44,33 +39,29 @@ if (isset($_SESSION['email'])) {
             </div>
         </div>
         </div>
-        <img src="Images/testimonial.jpg" class="container-fluid i">
-        <div class="modal fade" id="login-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" style="display: none;">
-            <div class="modal-dialog">
-                    <div class="loginmodal-container">
-			<h1 class="h1">Login</h1><br>
-                        <div class="login-help">
-                            <p>Don't have an account?<a href="signup.php">Register</a></p><br>
-			</div>
-                        <div class='col-xs-12'>
-                            <form method="POST" action="login.php">
-                                <div class="form-group">
-                                    <input type="text" name="user" placeholder="Username" class="form-control">
-                                </div>
-                                <div class="form-group">
-                                    <input type="password" name="password" placeholder="Password" class="form-control" pattern="">
-                                </div>
-                                <div class="form-group">
-                                    <input type="submit" name="login" class="login loginmodal-submit" value="Login" class="form-control">
-                                </div>
-                            </form>
-                             <div class="login-help">
-				<a href="#">Forgot Password</a>
-                            </div>
-                        </div>
-                    </div>
+        <div class="content5 col-xs-3">
+        <div class="banner">
+            <div class="inner-banner-image">
+                <div class="banner_content">
+                    <h3>Customer click Below</h3>
+                    <!---<p></p>-->
+                    <a href="#" data-toggle="modal" data-target="#login-modal"class="button">Click here</a>
+                </div>
             </div>
         </div>
+        </div>
+            </div>
+        <!--<div>
+        	<div class="container col-xs-4 c3"> 
+        		<button type="button" class="btn btn-outline-primary">Primary</button>
+        	</div>
+        	<div class="container col-xs-4 c4">
+        		<button type="button" class="btn btn-outline-primary">Primary</button>
+        	</div>
+        	<div class="container col-xs-4 c5">
+        		<button type="button" class="btn btn-outline-primary">Primary</button>
+        	</div>
+        </div>-->
         <footer>
             <div class="container-fluid">
                 <table>
@@ -95,4 +86,4 @@ if (isset($_SESSION['email'])) {
             </div>
         </footer>
     </body>
-</html>    
+</html>

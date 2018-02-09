@@ -11,11 +11,11 @@
     </head>
     <body>
         <div class="navbar navbar-default navbar-fixed-top">
-            <div class="logo"><a href="index.php">E-Store</a></div>
-            <div class="header-link"><a href="contact.php"><span class="glyphicon glyphicon-phone"></span> Contact Us</a></div>
-            <div class="header-link"><a href="about.php"><span class="glyphicon glyphicon-tasks"></span> About Us</a></div>
+            <div class="logo"><a href="Index.php">E-Store</a></div>
+            <div class="header-link"><a href="Contact.php"><span class="glyphicon glyphicon-phone"></span> Contact Us</a></div>
+            <div class="header-link"><a href="About.php"><span class="glyphicon glyphicon-tasks"></span> About Us</a></div>
             <div class="header-link"><a href="#" data-toggle="modal" data-target="#login-modal"><span class="glyphicon glyphicon-log-in"></span> Login</a></div>
-            <div class="header-link"><a href="signup.php"><span class="glyphicon glyphicon-user"></span> Sign Up</a></div>
+            <div class="header-link"><a href="SignUp.php"><span class="glyphicon glyphicon-user"></span> Sign Up</a></div>
         </div>
         <div class="container col-xs-10 sup">
             <h2>LIVE SUPPORT</h2>

@@ -1,28 +1,25 @@
 <!DOCTYPE html> 
 <html>
     <head> <!---- The page has a title Lifestyle Store--> 
-        <title>Lifestyle Store</title> 
+        <title>Farmer Store</title> 
         <!---- External css file index.css placed in the folder css is linked--> 
         <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css" type="text/css">
         <script type="text/javascript" src="bootstrap/js/jquery-3.2.1.min.js"></script>
         <script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
-        <link rel="stylesheet" href="index.css" type="text/css">
+        <link rel="stylesheet" href="style1.css" type="text/css">
 
     </head>
     <body>
-        <div class="navbar navbar-default navbar-fixed-top">
-            <div class="logo"><a href="index.php">E-Store</a></div>
-            <div class="header-link"><a href="contact.php"><span class="glyphicon glyphicon-phone"></span> Contact Us</a></div>
-            <div class="header-link"><a href="about.php"><span class="glyphicon glyphicon-tasks"></span> About Us</a></div>
+        <div class="navbar navbar-inverse navbar-fixed-top">
+            <div class="logo"><a href="Index.php" class="al">Farmer Store</a></div>
+            <div class="header-link"><a href="Contact.php"><span class="glyphicon glyphicon-phone"></span> Contact Us</a></div>
+            <div class="header-link"><a href="About.php"><span class="glyphicon glyphicon-tasks"></span> About Us</a></div>
             <div class="header-link"><a href="#" data-toggle="modal" data-target="#login-modal"><span class="glyphicon glyphicon-log-in"></span> Login</a></div>
-            <div class="header-link"><a href="signup.php"><span class="glyphicon glyphicon-user"></span> Sign Up</a></div>
+            <div class="header-link"><a href="SignUp.php"><span class="glyphicon glyphicon-user"></span> Sign Up</a></div>
         </div>
         <div class="container">
-            <div>
-                <img src="Images\LG.jpg" alt="Mobile Phone" class="imag"/>
-            </div>
         <div class="row top_margin">
-            <div class="panel panel-primary col-xs-6">
+            <div class="panel panel-primary col-xs-offset-3 col-xs-6">
                 <div class="panel-heading">Sign Up</div>
                     <div class="panel-body">
                         <form method="POST" action="user_registration_script.php">

@@ -6,27 +6,27 @@
         <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css" type="text/css">
         <script type="text/javascript" src="bootstrap/js/jquery-3.2.1.min.js"></script>
         <script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
-        <link rel="stylesheet" href="index.css" type="text/css">
+        <link rel="stylesheet" href="style1.css" type="text/css">
 
     </head>
     <body>
         
         <div class="navbar navbar-default navbar-fixed-top">
-            <div class="logo"><a href="index.php">E-Store</a></div>
-            <div class="header-link"><a href="contact.php"><span class="glyphicon glyphicon-phone"></span> Contact Us</a></div>
+            <div class="logo"><a href="Index.php">Farmer Store</a></div>
+            <div class="header-link"><a href="Contact.php"><span class="glyphicon glyphicon-phone"></span> Contact Us</a></div>
             <div class="header-link"><a href="about.php"><span class="glyphicon glyphicon-tasks"></span> About Us</a></div>
             <div class="header-link"><a href="#" data-toggle="modal" data-target="#login-modal"><span class="glyphicon glyphicon-log-in"></span> Login</a></div>
-            <div class="header-link"><a href="signup.php"><span class="glyphicon glyphicon-user"></span> Sign Up</a></div>
+            <div class="header-link"><a href="SignUp.php"><span class="glyphicon glyphicon-user"></span> Sign Up</a></div>
         </div>
         <div class="modal fade" id="login-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" style="display: none;">
             <div class="modal-dialog">
                     <div class="loginmodal-container">
 			<h1 class="h1">Login</h1><br>
                         <div class="login-help">
-                            <p>Don't have an account?<a href="signup.php">Register</a></p><br>
+                            <p>Don't have an account?<a href="Signup.php">Register</a></p><br>
 			</div>
                         <div class='col-xs-12'>
-                            <form method="POST" action="login.php">
+                            <form method="POST" action="Login.php">
                                 <div class="form-group">
                                     <input type="text" name="user" placeholder="Username" class="form-control">
                                 </div>
@@ -49,8 +49,7 @@
             <img src="Images/ppl.jpg" alternate="people" class="im">
             <br>
             <div  class="h col-xs-8">
-            <h3>Estore is an American based e-commerce website built just for selling mobile phones. It is available all over the world. It provides free-shipping with the help of DHL parcel services. It is well known for the quality of phones being sold. 
-                We provide free service repairs for the mobiles. It was established in the year 2012.
+            <h3>Farmer store is an e-commerce Website built just for helping the farmer across India to sell their products, eliminating the middle man 
             </h3></div>
         </div>
         <footer>

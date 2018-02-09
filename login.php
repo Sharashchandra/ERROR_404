@@ -17,7 +17,7 @@ $sql="SELECT * FROM users WHERE email='$user' AND password='$password';";
 $result = mysqli_query($con, $sql)or die(mysqli_error($con)) ;
 $count = mysqli_num_rows($result);
 if($count == 1) {
-         header("location: home.php");
+         header("location: Home.php");
       }
 else {
          $error = "Your Login Name or Password is invalid";
