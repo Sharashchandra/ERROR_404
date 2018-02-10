@@ -12,6 +12,10 @@ and open the template in the editor.
     padding-bottom: 10px;
     padding-top: 10px;
 }
+
+.panel-heading{
+  margin-left:0px;
+}
 .logo{
     float: left; 
     height: 50px; 
@@ -63,7 +67,10 @@ h5{
     margin-left: 105px;
     padding-left:0px; 
     padding-right:0px;
-
+    transition: all .2s ease-in-out;
+}
+.content1:hover{
+  transform: scale(1.05);
 }
 .content2{
     padding-top: 150px;
@@ -73,16 +80,10 @@ h5{
     margin-top: 85px;
     margin-bottom: 50px;
     margin-left: 20px;
+    transition: all .2s ease-in-out;
 }
-
-.content3{
-    margin-bottom: 10px;
-}
-.content4{
-    margin-bottom: 10px;
-}
-.content5{
-    margin-bottom: 10px;
+.content2:hover{
+  transform: scale(1.05);
 }
 .banner{
     padding-bottom: 50px; 
@@ -231,15 +232,22 @@ h5{
 .ca{
     color: #d0e9c6;
 }
-.var{
-    height:200px;
-    width:105px;
-    margin-left: 90px;
+.var {
+    height: 200px;
+    width: 290px;
+    margin-left: 15px;
 }
 .pan{
     height:325px;
     width:350px;
     margin-right: 15px;
+    padding-left:0px;
+    padding-right:0px;
+    text-align: center;
+    transition: all .2s ease-in-out;
+}
+.pan:hover{
+  transform: scale(1.05);
 }
 .im{
     float: left;
@@ -258,9 +266,8 @@ h5{
     margin-top:20px;
     float:left
 }
-.pade{
-    margin-top: 50px;
-    background: url(Images/a.jpg) background;
+.pada{
+    margin-top: 100px;
 }
 .i{
   max-height: 500px;
@@ -268,6 +275,7 @@ h5{
 .al{
     color: #fff;
 }
+
 .c1 {
    max-height: 260px;
   margin-left: 20px;
@@ -281,16 +289,41 @@ h5{
  
 .c3 {
   background-image: url("Images/cart.jpg");
-  height:400px;
-
+  padding-top:10%;
+  margin-left: 20px;
+  margin-right: 20px;
+  min-height: 350px;
+  min-width: 425px;
+  transform-origin: 100%;
+  transition: all .2s ease-in-out;
 }
 
 .c4 {
   background-image: url("Images/order.jpg");
-  min-height:400px;
+  padding-top:10%;
+  margin-right: 20px;
+  min-height: 350px;
+  min-width: 425px;
+  transition: all .2s ease-in-out;
 }
 
 .c5 {
   background-image: url("Images/req.jpg");
-  min-height:400px;
+  padding-top:10%;
+  margin-right: 20px;
+  min-height: 350px;
+  min-width: 425px;
+  transition: all .2s ease-in-out;
 }
+.c3:hover{
+    transform: scale(1.05);
+}
+
+.c4:hover{
+    transform: scale(1.05);
+}
+
+.c5:hover{
+    transform: scale(1.05);
+}
+

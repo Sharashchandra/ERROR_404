@@ -14,7 +14,7 @@
             <div class="logo"><a href="Index.php" class="al">Farmer Store</a></div>
             <div class="header-link"><a href="Contact.php"><span class="glyphicon glyphicon-phone"></span> Contact Us</a></div>
             <div class="header-link"><a href="About.php"><span class="glyphicon glyphicon-tasks"></span> About Us</a></div>
-            <div class="header-link"><a href="#" data-toggle="modal" data-target="#login-modal"><span class="glyphicon glyphicon-log-in"></span> Login</a></div>
+            <div class="header-link"><a href="#" data-toggle="modal" data-target="#login-modal"><span class="glyphicon glyphicon-log-in"></span>Login</a></div>
             <div class="header-link"><a href="SignUp.php"><span class="glyphicon glyphicon-user"></span> Sign Up</a></div>
         </div>
         <div class="container">
